@@ -22,3 +22,23 @@ Getting Started
 ### Installation
 
 You can install the required libraries using pip:
+
+pip install -r requirements.txt
+
+### Basic Usage
+
+Here's an example of how to use the movie recommendation system:
+```python
+from recommender import Recommender
+
+# Load the dataset
+data = pd.read_csv('movielens-100k.csv')
+
+# Create a recommender object
+recommender = Recommender(data)
+
+# Get recommendations for a user
+user_id = 1
+recommendations = recommender.get_recommendations(user_id)
+
+print(recommendations)
