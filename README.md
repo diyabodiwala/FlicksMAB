@@ -1,4 +1,3 @@
-# Movie-recommendation-system
 Movie Recommendation System using Multi-Armed Bandits and PyTorch
 =====================================================
 
