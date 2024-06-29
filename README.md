@@ -1,4 +1,4 @@
-Movie Recommendation System using Multi-Armed Bandits and PyTorch
+FlicksMAB: AI-Powered Film Recommendations/Movie Recommendation System using Multi-Armed Bandits and PyTorch
 =====================================================
 
 This project implements a movie recommendation system using multi-armed bandits and PyTorch. The system takes into account the user's past behavior and recommends movies that are likely to engage them.
